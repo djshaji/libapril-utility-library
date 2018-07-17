@@ -1,0 +1,13 @@
+A FAQ will be made available, but meanwhile ...
+
+- Read the header files for function prototypes. They're pretty
+  self explanatory
+  
+- Don't forget to call gtk_init () before you do anything with
+  a function call to Gtk
+  
+- Mounting and unmounting stuff, and things to do with the
+  "registry" will probably require root access.
+
+- The "access" module requires the festival framework ( externally )
+

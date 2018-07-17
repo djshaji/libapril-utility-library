@@ -1,0 +1,29 @@
+What is libapril ?
+
+Some time ago I attempted to create a linux distribution that would
+be a modern day desktop operating system for "old" computers. This
+means systems like my own - 256 MB SD RAM, 40 GB hard drive, 1.5 GHz
+Pentium 4 ... basically computers that are created and supported
+no more.
+
+April was the name of such a project, and it wasn't really a general
+purpose operating system. I personally use Fedora Core 4 as my
+primary operating system, but when I just wanted to listen to some
+music or watch videos or stuff, I wanted something that would start
+up quickly and be really fast. Hence April. Network support was
+being implemented too.
+
+Another reason was to create an intelligent desktop. The system
+had a registry, could restart components automatically and
+configured itself to suit the host system at boot. 
+
+It could boot on a system with 8 MB of RAM. Even DSL can't do that
+( I've checked ).
+
+Life happened, and the project is now shelved ( temporarily ).
+I will go back to it in the future, but meanwhile, here is some code
+that people might find a tad useful. It has something as simple as
+april_message_box_info ( gchar * message ) to registry functions ( aka 
+MS style ).
+
+Enjoy !

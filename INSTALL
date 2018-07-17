@@ -1,0 +1,10 @@
+To compile, do
+$ make
+
+To install, do
+$ make install
+
+To clean, do
+$ make clean
+
+Note: Do a make clean between makes.
